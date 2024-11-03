@@ -5,17 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node-dev --respawn --pretty --transpile-only src/index.ts"
+    "dev": "tsx"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ts-node": "10.9.2",
+    "node-fetch": "3.3.2",
+    "tsx": "4.19.2",
     "typescript": "5.6.3"
   },
   "devDependencies": {
     "@types/node": "22.8.4",
-    "ts-node-dev": "2.0.0"
+    "@types/node-fetch": "2.6.11"
   }
 }
